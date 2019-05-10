@@ -1,25 +1,26 @@
 # Todo List Rails API
 
+## Incomplete
+
 Ruby: 2.5.5
 Rails: 5.2.3
-db: mysql
+db: postgres (because mysql with Docker is too damn problematic for my taste in this moment)
 
-Things you may want to cover:
+1. Open terminal
+2. Run `git clone repo_url`
+3. Run `cd taks_rails_api`
+4. In config/database.yml change the definitions to match your database
 
-* Ruby version
+From here on things get different if you want to use Docker or not:
 
-* System dependencies
+* Install using Docker
+5. Run `docker build .`
+6. Run `docker-compose up`
+7. Open another terminal and run `docker-compose run bundle exec rake db:create db:migrate`
 
-* Configuration
+* Install without Docker
+5. Run `bundle install`
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+References:
+* https://docs.docker.com/compose/rails/
+* https://onebitcode.com/crud-com-rails-e-react/ (pt-BR)

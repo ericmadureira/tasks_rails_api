@@ -13,4 +13,4 @@ RUN bundle install
 
 COPY . /myapp
 
-EXPOSE 3000
+EXPOSE 3001

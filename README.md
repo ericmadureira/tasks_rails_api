@@ -1,11 +1,10 @@
 # Todo List Rails API
 
-## Status: Almost complete
-
 ## Technologies used
 * Ruby: **2.5.5**
 * Rails: **5.2.3**
-* database: **postgres** (because mysql with Docker is too damn problematic for my taste in this moment)
+* database: **postgres** (because mysql with Docker is too damn problematic for my taste at this moment)
+* Made to work with https://github.com/ericmadureira/tasks_client
 
 ## Setup
 1. Open terminal

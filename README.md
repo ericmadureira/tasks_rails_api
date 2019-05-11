@@ -3,9 +3,9 @@
 ## Status: Almost complete
 
 ## Technologies used
-* Ruby: 2.5.5
-* Rails: 5.2.3
-* db: postgres (because mysql with Docker is too damn problematic for my taste in this moment)
+* Ruby: **2.5.5**
+* Rails: **5.2.3**
+* database: **postgres** (because mysql with Docker is too damn problematic for my taste in this moment)
 
 ## Setup
 1. Open terminal
@@ -19,7 +19,7 @@ From here on things get different if you want to use Docker or not:
 5. Run `docker build .`
 6. Run `docker-compose up`
 7. Open another terminal and run `docker-compose run bundle exec rake db:create db:migrate`
-
+8. Your rails API is ready to serve at localhost:3001
 * Install without Docker
 5. Run `bundle install`
 

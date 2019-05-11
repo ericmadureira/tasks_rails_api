@@ -1,14 +1,15 @@
 # Todo List Rails API
 
-## Almost complete
+## Status: Almost complete
 
+## Technologies used
 * Ruby: 2.5.5
 * Rails: 5.2.3
 * db: postgres (because mysql with Docker is too damn problematic for my taste in this moment)
 
 ## Setup
 1. Open terminal
-2. Run `git clone repo_url`
+2. Run `git clone https://github.com/ericmadureira/tasks_rails_api`
 3. Run `cd taks_rails_api`
 4. In config/database.yml change the definitions to match your database
 

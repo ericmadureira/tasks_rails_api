@@ -1,11 +1,12 @@
 # Todo List Rails API
 
-## Incomplete
+## Almost complete
 
-Ruby: 2.5.5
-Rails: 5.2.3
-db: postgres (because mysql with Docker is too damn problematic for my taste in this moment)
+* Ruby: 2.5.5
+* Rails: 5.2.3
+* db: postgres (because mysql with Docker is too damn problematic for my taste in this moment)
 
+## Setup
 1. Open terminal
 2. Run `git clone repo_url`
 3. Run `cd taks_rails_api`
@@ -21,6 +22,6 @@ From here on things get different if you want to use Docker or not:
 * Install without Docker
 5. Run `bundle install`
 
-References:
+## References
 * https://docs.docker.com/compose/rails/
 * https://onebitcode.com/crud-com-rails-e-react/ (pt-BR)

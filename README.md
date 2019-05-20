@@ -3,7 +3,7 @@
 ## Technologies used
 * Ruby: **2.5.5**
 * Rails: **5.2.3**
-* database: **postgres** (because mysql with Docker is too damn problematic for my taste at this moment)
+* database: **postgres**
 * Made to work with https://github.com/ericmadureira/tasks_client
 
 ## Setup

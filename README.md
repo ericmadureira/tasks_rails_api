@@ -27,9 +27,11 @@ From here on things get different if you want to use Docker or not:
 8. Your rails API is ready at localhost:3001.
 
 ## Endpoints
-* GET /tasks -> list all tasks
-* GET /tasks/1 -> show task with id 1
+* GET /tasks -> get all tasks
+* POST /tasks/1 -> edit task as done
+* DELETE /tasks/1 -> delete a single task
+* POST /tasks -> add a new task
 
 ## References
 * https://docs.docker.com/compose/rails/
-* https://onebitcode.com/crud-com-rails-e-react/ (pt-BR)
+* https://onebitcode.com/crud-com-rails-e-react/ (pt-BR) - Thanks to Leonardo Scorza and his amazing job at OneBitCode
